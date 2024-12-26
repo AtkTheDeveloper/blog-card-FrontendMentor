@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4d04e;
+}
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 370px;
+    border: 1px solid black;
+}
+.container .image img{
+    width: 100%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.container .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+}
